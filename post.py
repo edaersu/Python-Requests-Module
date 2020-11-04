@@ -24,6 +24,7 @@ import bios
 data = bios.read('categories.json')
 json_data = json.dumps(data)  ## converting dict to json
 categories_json = json.loads(json_data) 
+print(json_data)
 
 data2 = bios.read('quiz.json')
 json_data2 = json.dumps(data2)
